@@ -11,7 +11,7 @@ func Wat() {
 	if Count == 0 {
 		fmt.Println("HERE")
 	} else {
-		fmt.Println(fmt.Sprintf("HERE%d", Count))
+		fmt.Printf("HERE%d\n", Count)
 	}
 
 	Count = Count + 1
